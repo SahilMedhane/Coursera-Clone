@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursera</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Coursera Clone by Sahil Medhane</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <aside class="filters">
+        <h2>Filters</h2>
+        <div>
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="all">All Categories</option>
+                <option value="web">Web Development</option>
+                <option value="data">Data Science</option>
+                <option value="design">Graphic Design</option>
+            </select>
+        </div>
+        <div>
+            <label for="level">Level:</label>
+            <select id="level">
+                <option value="all">All Levels</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+        </div>
+    </aside>
+
+    <div class="courses">
+
+        <div class="course" data-category="web" data-level="beginner">
+            <img src="https://www.creativeitinstitute.com/images/course/course_1663052056.jpg" alt="Web Development">
+            <div class="course-content">
+                <h2>Web Development</h2>
+            </div>
+        </div>
+        <div class="course" data-category="data" data-level="intermediate">
+            <img src="https://assets-global.website-files.com/63ccf2f0ea97be12ead278ed/644a18b637053fa3709c5ba2_what-is-data-science.jpg" alt="Data Science">
+            <div class="course-content">
+                <h2>Data Science</h2>
+            </div>
+        </div>
+        <div class="course" data-category="design" data-level="beginner">
+            <img src="https://5.imimg.com/data5/SELLER/Default/2020/10/YZ/QA/TQ/53452831/art-and-illustration-for-graphic-design.jpg" alt="Graphic Design">
+            <div class="course-content">
+                <h2>Graphic Design</h2>
+            </div>
+        </div>
+        <div class="course" data-category="web" data-level="intermediate">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*LyZcwuLWv2FArOumCxobpA.png" alt="JavaScript">
+            <div class="course-content">
+                <h2>JavaScript</h2>
+            </div>
+        </div>
+        <div class="course" data-category="data" data-level="advanced">
+            <img src="https://miro.medium.com/v2/resize:fit:1358/1*cG6U1qstYDijh9bPL42e-Q.jpeg" alt="Machine Learning">
+            <div class="course-content">
+                <h2>Machine Learning</h2>
+            </div>
+        </div>
+        <div class="course" data-category="design" data-level="intermediate">
+            <img src="https://www.applify.com.sg/blog/wp-content/uploads/2022/03/A-pathway-that-UIUX-team-follows-before-designing-your-app.png" alt="UI/UX Design">
+            <div class="course-content">
+                <h2>UI/UX Design</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; All rights reserved. Couresera Clone by Sahil Medhane.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
